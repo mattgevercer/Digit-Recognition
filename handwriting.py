@@ -42,7 +42,7 @@ print("Model1 accuracy is ",accuracy1)
 print("Model0 loss is ", loss)
 print("Model1 loss is ",loss1)
 
-#visualize how validation loss changes over the epochs
+#visualize how validation accuracy changes over the epochs
 acc     = history.history[    'accuracy' ]
 val_acc = history.history['val_accuracy' ]
 epochs   = range(len(acc))
